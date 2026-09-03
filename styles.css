@@ -619,3 +619,20 @@ html[data-theme="dark"] .chat-panel { background:#12221d; color:#eaf1ed; border-
   html[data-theme="dark"] .heritage-mark::before,
   html[data-theme="dark"] .heritage-mark::after { animation:none; }
 }
+
+/* Mobile navigation — match the active theme */
+@media (max-width:760px){
+  html[data-theme="dark"] .main-nav{
+    background:rgba(13,27,22,.98);
+    border-color:#2b4037;
+    box-shadow:0 20px 45px rgba(0,0,0,.30);
+  }
+  html[data-theme="dark"] .main-nav a{
+    color:#d3e0da;
+  }
+  html[data-theme="dark"] .main-nav a:hover,
+  html[data-theme="dark"] .main-nav a:focus-visible{
+    background:#193129;
+    color:#e7c96f;
+  }
+}
