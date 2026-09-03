@@ -136,7 +136,7 @@ $$('#mainNav a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remov
 const chatButton=$('#chatButton'), chatPanel=$('#chatPanel'), chatClose=$('#chatClose'), chatBody=$('#chatBody');
 const faqs={
  'What services does Star Packages provide?':'Star Packages provides travel and tourism services, tourist and business travel support, computerised reservation support for airline, hotel and car rental requirements, and dedicated Umrah and Hajj arrangements.',
- 'How can I request Umrah package details?':'Use the contact section, call (+92) 32575228-9, or email starpackages786@gmail.com. The supplied website lists 2025–26 and 15 Days Umrah package documents; rates and availability are subject to change.',
+ 'How can I request Umrah package details?':'Use the contact section, call (021) 32575228-9, or email starpackages786@gmail.com. The supplied website lists 2025–26 and 15 Days Umrah package documents; rates and availability are subject to change.',
  'Where is the office?':'Jamia Binoria Alamia, SITE Karachi No. 16 – 75700, Pakistan.',
  'Which certificates are available?':'The supplied company materials include KCCI Membership Certificate, DTS Certificate, TAAP Membership Certificate, and IATA Certificate of Accreditation.',
 };
