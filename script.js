@@ -8,6 +8,8 @@
     btn.setAttribute('aria-pressed',String(dark));
     btn.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
     btn.title=dark?'Switch to light mode':'Switch to dark mode';
+    const meta=document.querySelector('meta[name="theme-color"]');
+    if(meta) meta.setAttribute('content',dark?'#071329':'#0b4ea2');
   };
   sync();
   btn.addEventListener('click',()=>{
